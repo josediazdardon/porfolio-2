@@ -1,0 +1,103 @@
+.home {
+    .logo {
+       border: 5px solid white;
+        height: 90px;
+        width: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5rem;
+        color: white;
+        line-height: 0;
+    }
+    .info-section {
+        padding: 54px;
+        width: 35%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        .info-box {
+            bottom: 60px;
+            position: absolute;
+            h4 {
+                font-size: 1.2rem;
+                color: $color3;
+                margin: 0.7rem 0;
+                p {
+                    font-size: .9rem;
+                    font-weight: 300;
+                    margin: 0.2rem 0 1.6rem;
+                }
+            }
+        }
+        .icon-section {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 1rem;
+                padding: 0 5px;
+                &:hover {
+                    color: black;
+                }
+                &:first-child {
+                    padding: 0 10px 0 0;
+                }
+            }
+        }
+    }
+    .content-area {
+        margin-left: 35%;
+        background: white;
+        width:  65%;
+        height: 100%;
+        //padding: 0 0 0 20%;
+        .img-container {
+            width: 30%;
+            display: inline-block;
+            position: relative;
+            height: 100%;
+            .user-img {
+                position: absolute;
+                left: -130px;
+                bottom: 60px;
+                width: 300px;
+                height: 500px;
+                background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA02l5Mxr3C3mv-PkcH9AYSqm6gexKd8F9IA&usqp=CAU") no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        }
+        .profile-section {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 50px;
+            padding: 20% 0 0 0;
+            max-width: 500px;
+            .profile {
+                h1{
+                    font-size: 2.3rem;
+                    font-weight: 500;
+                    line-height: .9;
+                    margin: 0 0 1rem;
+                    span{
+                        color: $color1;
+                    }
+                    
+                }
+                h5 {
+                   font-size: 1.1rem;
+                   margin: 0 0 2rem;
+                }
+                h6 {
+                    color: $color5;
+                    font-weight: 300;
+                    line-height: 1.2;
+                    margin: 0 0 2rem;
+                }
+            }
+        }
+    }
+}

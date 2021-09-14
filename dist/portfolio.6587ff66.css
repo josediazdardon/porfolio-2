@@ -1,0 +1,264 @@
+.home .logo {
+  border: 5px solid white;
+  height: 90px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: white;
+  line-height: 0; }
+
+.home .info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+  .home .info-section .info-box {
+    bottom: 60px;
+    position: absolute; }
+    .home .info-section .info-box h4 {
+      font-size: 1.2rem;
+      color: #fefefe;
+      margin: 0.7rem 0; }
+      .home .info-section .info-box h4 p {
+        font-size: .9rem;
+        font-weight: 300;
+        margin: 0.2rem 0 1.6rem; }
+  .home .info-section .icon-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 5px; }
+    .home .info-section .icon-section a:hover {
+      color: black; }
+    .home .info-section .icon-section a:first-child {
+      padding: 0 10px 0 0; }
+
+.home .content-area {
+  margin-left: 35%;
+  background: white;
+  width: 65%;
+  height: 100%; }
+  .home .content-area .img-container {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    height: 100%; }
+    .home .content-area .img-container .user-img {
+      position: absolute;
+      left: -130px;
+      bottom: 60px;
+      width: 300px;
+      height: 500px;
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA02l5Mxr3C3mv-PkcH9AYSqm6gexKd8F9IA&usqp=CAU") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+  .home .content-area .profile-section {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding: 20% 0 0 0;
+    max-width: 500px; }
+    .home .content-area .profile-section .profile h1 {
+      font-size: 2.3rem;
+      font-weight: 500;
+      line-height: .9;
+      margin: 0 0 1rem; }
+      .home .content-area .profile-section .profile h1 span {
+        color: #4b21ff; }
+    .home .content-area .profile-section .profile h5 {
+      font-size: 1.1rem;
+      margin: 0 0 2rem; }
+    .home .content-area .profile-section .profile h6 {
+      color: #a9a9a9;
+      font-weight: 300;
+      line-height: 1.2;
+      margin: 0 0 2rem; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.resume .content-area {
+  margin-left: 20%;
+  background: white;
+  width: 80%;
+  height: 100%; }
+
+.logo {
+  border: 5px solid white;
+  height: 90px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: white;
+  line-height: 0; }
+
+.info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+  .info-section .info-box {
+    bottom: 60px;
+    position: absolute; }
+    .info-section .info-box h4 {
+      font-size: 1.2rem;
+      color: #fefefe;
+      margin: 0.7rem 0; }
+      .info-section .info-box h4 p {
+        font-size: .9rem;
+        font-weight: 300;
+        margin: 0.2rem 0 1.6rem; }
+  .info-section .icon-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 5px; }
+    .info-section .icon-section a:hover {
+      color: black; }
+    .info-section .icon-section a:first-child {
+      padding: 0 10px 0 0; }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 18px;
+  background: #4b21ff;
+  height: 100%; }
+
+p {
+  color: #fefefe; }
+
+.menu-icon {
+  position: fixed;
+  right: 36px;
+  top: 36px;
+  padding: 20px;
+  z-index: 11; }
+  .menu-icon .fa {
+    color: #4b21ff;
+    font-size: 1.7rem; }
+
+.primary-btn {
+  text-decoration: none;
+  background: #4b21ff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-right: 6px;
+  transition: all 0.3s ease-in-out; }
+  .primary-btn:hover {
+    background: black; }
+
+.ghost-btn {
+  text-decoration: none;
+  border: 3px solid black;
+  background: white;
+  border-radius: 30px;
+  text-align: center;
+  color: black;
+  padding: 11px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  transition: all 0.3s ease-in-out; }
+  .ghost-btn:hover {
+    border-color: #4b21ff; }
+
+#menu {
+  background: #4b21ff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(-100%, 0, 0);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: all .5s ease-in-out; }
+  #menu nav {
+    width: 400px; }
+    #menu nav a {
+      color: white;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      font-size: 2.3rem;
+      padding: 1rem; }
+      #menu nav a:hover {
+        color: #a9a9a9; }
+
+.menu-active .menu-icon .fa {
+  color: white; }
+
+.menu-active #menu {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(0, 0, 0); }
+
+
+/*# sourceMappingURL=/portfolio.6587ff66.css.map */
